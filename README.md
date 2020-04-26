@@ -98,14 +98,15 @@ Rules of Blackjack
 ### Cards’ values:
 - Ace counts as either 1 or 11 based on need. 
 - Jack, Queen and King counts as 10. 
-- Other cards counts as their numerical values.
+- Other cards count as their numerical values.
 
 ### Terms:
-- Bust: cards has a sum greater than 21.
+- Bust: the sum of cards is greater than 21.
 
 ### Game’s procedure: 
-1. Player and dealer are both given two cards, with one of the dealer’s card revealed to the player. 
-2. The player takes actions until the game terminates.
+1. The player and dealer are both given two cards, with one of the dealer’s card revealed to the player. 
+2. The player can keep asking for new cards before going bust. 
+3. When the player stands, the dealer takes over until termination. 
 
 ### Player’s actions: 
 1. Hit: player takes a card from card deck
