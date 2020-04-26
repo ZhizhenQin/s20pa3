@@ -102,7 +102,7 @@ def test_convergence(algorithm):
     base.load("test_convergence")
 
     episodes = int(1e6)
-    tolerance = 0.2
+    tolerance = 0.25
     max_diffs = {
         ALG_MC: 5,
         ALG_TD: 20,
