@@ -69,7 +69,7 @@ Examples:
 
 `python main.py -t 1 -a 1` to run the deterministic tester for MC algorithm. 
 `python main.py -t 2 -a 3` to run the divergence tester for Q-Learning algorithm.
-`ptthon main.py -t 3` to run the convergence tester for all algorithms.
+`python main.py -t 3` to run the convergence tester for all algorithms.
 
 ### 3-Step Deterministic Tests
 
